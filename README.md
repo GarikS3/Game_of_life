@@ -12,13 +12,11 @@
 
 
 ## Compilation
-```bash
-gcc -Wall -Wextra -Werror -o life game_of_life.c -lncurses
+`gcc -Wall -Wextra -Werror -o life game_of_life.c -lncurses`
 
 
 ## Execution
-```bash
-./life < Patterns/*.txt
+`./life < Patterns/*.txt`
 
 
 ## Controls
